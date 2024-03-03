@@ -71,7 +71,7 @@ function App() {
   const [formData, setFormData] = useState({ name: "", email: "" });
   const [recordData, setRecordData] = useState([]);
 
-  const base_url = 'http://43.205.96.126:4001'; // Directly providing backend IP here
+  const base_url = 'http://35.154.189.18:4001'; // Directly providing backend IP here
 
   useEffect(() => {
     axios.get(`${base_url}/getUsers`)
